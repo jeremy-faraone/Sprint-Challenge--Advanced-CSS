@@ -1,4 +1,13 @@
 // Variables
+@keyframes click {
+    // from {background-color: @wild-sand;}
+    // to {background-color: red;}
+    0%   {background-color:@wild-sand; }
+    25%  {background-color:rgb(0, 255, 213);}
+    50%  {background-color:rgb(44, 44, 199); }
+    75%  {background-color:rgb(21, 156, 180); }
+    100% {background-color:rgb(10, 37, 189); }
+}
 
 // Color pointers
 @nav-bg: @wild-sand;
@@ -21,6 +30,8 @@
 @porcelain: #F6F7F8;
 @waterloo: #81848E;
 @btn-bg-color: #22283A;
+@btn-click-color:  rgb(37, 69, 165);
 @border-real: #dee2e6;
 
 // Mobile var
+@phone: ~"(max-width: 500px)";
